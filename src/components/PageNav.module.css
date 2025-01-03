@@ -2,15 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .nav ul {
-  width: 100%;
+  width: 50%;
   list-style: none;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
 }
 
@@ -25,8 +24,7 @@
 
 /* CSS Modules feature */
 .nav a:global(.active) {
-  color: var(--color-brand--2);
-  
+  color: var(--color-brand--2);;
 }
 
 a.ctaLink:link,
@@ -36,7 +34,4 @@ a.ctaLink:visited {
   padding: 0.8rem 2rem;
   border-radius: 7px;
   
-}
-.head{
-  color:black;
 }
