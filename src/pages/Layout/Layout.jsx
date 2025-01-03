@@ -1,9 +1,9 @@
-import Product from "../pages/Product";
-import Homepage from "./Homepage";
-import Pricing from "./Pricing";
-import PageNotFound from "./PageNotFound";
+import Product from "../Pricing/Product";
+import Homepage from "../Home/Homepage";
+import Pricing from "../Pricing/Pricing";
+import PageNotFound from "../Pricing/PageNotFound";
 import AppLayout from "./AppLayout";
-import Login from "./Login";
+import Login from "../Login/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function Layout() {
   return (
