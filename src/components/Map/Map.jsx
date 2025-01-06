@@ -69,6 +69,7 @@ const ChangeCenter = ({ position }) => {
   return null;
 };
 
+
 const DetectClick = () => {
   const navigate = useNavigate();
   useMapEvent({
