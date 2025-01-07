@@ -1,42 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 42.727881642324164,
-        "lng": 42.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 42.46635901755316,
-        "lng": 42.71337890625
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 42.13586782505711,
-        "lng": 42.976933665713325
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Tbilisi",
       "country": "Georgia",
       "emoji": "🇬🇪",
@@ -59,66 +23,6 @@
         "lng": 42.376933665713324
       },
       "id": 93197
-    },
-    {
-      "cityName": "Dmanisi",
-      "country": "Georgia",
-      "emoji": "🇬🇪",
-      "date": "2025-01-06T17:31:05.554Z",
-      "notes": "That was great",
-      "position": {
-        "lat": "41.409775832009565",
-        "lng": "44.01123046875001"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Zest’aponi",
-      "country": "Georgia",
-      "emoji": "🇬🇪",
-      "date": "2025-01-06T17:34:28.496Z",
-      "notes": "Zestaponoo",
-      "position": {
-        "lat": "42.081916678306335",
-        "lng": "43.04443359375001"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Dedoplis Tskaro",
-      "country": "Georgia",
-      "emoji": "🇬🇪",
-      "date": "2025-01-06T17:35:00.084Z",
-      "notes": "tskaro",
-      "position": {
-        "lat": "41.409775832009565",
-        "lng": "46.2744140625"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Akhalgori",
-      "country": "Georgia",
-      "emoji": "🇬🇪",
-      "date": "2025-01-06T17:40:46.398Z",
-      "notes": "gor",
-      "position": {
-        "lat": "42.06560675405716",
-        "lng": "44.40673828125"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Sagarejo",
-      "country": "Georgia",
-      "emoji": "🇬🇪",
-      "date": "2025-01-06T17:42:32.334Z",
-      "notes": "Rejo",
-      "position": {
-        "lat": "41.86956082699455",
-        "lng": "45.13183593750001"
-      },
-      "id": 98443202
     }
   ]
 }

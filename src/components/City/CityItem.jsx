@@ -9,19 +9,27 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 export default function CityItem({ city }) {
-  const { currentCity } = useCities();
+  const { currentCity, deleteCity } = useCities();
   const { cityName, emoji, date, id, position } = city;
-
+  const handleClick = (e) => {
+    e.preventDefault();
+    deleteCity(id);
+  };
   return (
     <li>
       <Link
-        className={`${classes.cityItem} ${currentCity.id===id?classes.active:''}`}
+        className={`${classes.cityItem} ${
+          currentCity.id === id ? classes.active : ""
+        }`}
         to={`${id}?lat=${position.lat}&lng=${position.lng}`}
       >
         <span className={classes.emoji}>{emoji}</span>
         <h3 className={classes.name}>{cityName}</h3>
         <time className={classes.date}>{formatDate(date)}</time>
-        <button className={classes.deleteBtn}>&times;</button>
+        <button className={classes.deleteBtn} onClick={(e) => handleClick(e)}>
+          {" "}
+          &times;
+        </button>
       </Link>
     </li>
   );
