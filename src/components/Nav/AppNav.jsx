@@ -1,4 +1,4 @@
-import classes from "./Appnav.module.css";
+import classes from "./AppNav.module.css";
 import { NavLink } from "react-router-dom";
 const AppNav = () => {
   return (
